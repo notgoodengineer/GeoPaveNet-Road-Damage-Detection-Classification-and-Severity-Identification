@@ -1,2 +1,2 @@
-docker run --gpus all     --device /dev/video0     --device /dev/ttyACM0     -e DISPLAY=$DISPLAY     -v /tmp/.X11-unix:/tmp/.X11-unix -v $XAUTHORITY:/root/.Xauthority:ro  -it --ipc=host --runtime=nvidia     -v /home/geopavenet:/home/geopavenet     custom-ultralytics:latest
+docker run --gpus all     --device /dev/video0     --device /dev/ttyACM0     -e DISPLAY=$DISPLAY     -v /tmp/.X11-unix:/tmp/.X11-unix -v $XAUTHORITY:/root/.Xauthority:ro  -it --ipc=host --runtime=nvidia     -v /home/geopavenet:/home/geopavenet -v /media/geopavenet:/media/geopavenet    custom-ultralytics:latest
 
