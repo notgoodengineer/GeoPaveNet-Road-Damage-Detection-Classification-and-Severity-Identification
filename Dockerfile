@@ -2,7 +2,7 @@
 FROM ultralytics/ultralytics:latest-jetson-jetpack4
 
 # Install additional libraries
-RUN pip install pynmea2 pyserial numpy==1.23.5
+RUN pip install pynmea2 pyserial numpy==1.23.5 fpdf2
 
 # Set environment variables for X11
 ENV DISPLAY=${DISPLAY}
