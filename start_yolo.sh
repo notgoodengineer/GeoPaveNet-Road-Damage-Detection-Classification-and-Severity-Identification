@@ -29,4 +29,4 @@ docker run --gpus all \
     -v /home/geopavenet:/home/geopavenet \
     -v /media/geopavenet:/media/geopavenet \
     custom-ultralytics:latest \
-    python3 /home/geopavenet/yolo/yolodetect8.py
+    python3 /home/geopavenet/yolo/yolodetect12.py
